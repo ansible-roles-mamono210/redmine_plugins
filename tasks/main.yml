@@ -1,0 +1,8 @@
+---
+- name: Install plugins
+  ansible.builtin.git:
+    repo: "{{ item.repo }}"
+    dest: "{{ item.install_dir }}"
+    version: "{{ item.version }}"
+  with_items:
+    - "{{ redmine_plugins }}"

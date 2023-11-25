@@ -1,0 +1,7 @@
+---
+# Redmine plugin Git repositories
+redmine_plugins:
+  - name: 'RedMica UI extension'
+    repo: 'https://github.com/redmica/redmica_ui_extension.git'
+    version: 'master'
+    install_dir: '/var/lib/redmine/plugins/redmica_ui_extension'
