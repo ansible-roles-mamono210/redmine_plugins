@@ -25,7 +25,7 @@ platforms:
     tag_name: ${TAG_NAME}
     tag_created_by: ${CREATED_BY}
     vpc_subnet_id: ${VPC_SUBNET_ID}
-    volume_size: 20
+    volume_size: 30
 provisioner:
   name: ansible
   config_options:
